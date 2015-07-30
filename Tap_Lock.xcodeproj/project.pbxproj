@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B836B7971B6A7E530057FD13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7961B6A7E530057FD13 /* AppDelegate.swift */; };
+		B836B7991B6A7E530057FD13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7981B6A7E530057FD13 /* ViewController.swift */; };
+		B836B79C1B6A7E530057FD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B79A1B6A7E530057FD13 /* Main.storyboard */; };
+		B836B79E1B6A7E530057FD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B79D1B6A7E530057FD13 /* Assets.xcassets */; };
+		B836B7A11B6A7E530057FD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B79F1B6A7E530057FD13 /* LaunchScreen.storyboard */; };
+		B836B7A61B6A7E530057FD13 /* Tap_Lock WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B836B7A51B6A7E530057FD13 /* Tap_Lock WatchKit App.app */; };
+		B836B7AC1B6A7E530057FD13 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B7AA1B6A7E530057FD13 /* Interface.storyboard */; };
+		B836B7AE1B6A7E530057FD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B7AD1B6A7E530057FD13 /* Assets.xcassets */; };
+		B836B7B51B6A7E530057FD13 /* Tap_Lock WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B836B7B41B6A7E530057FD13 /* Tap_Lock WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B836B7BA1B6A7E530057FD13 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7B91B6A7E530057FD13 /* InterfaceController.swift */; };
+		B836B7BC1B6A7E530057FD13 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7BB1B6A7E530057FD13 /* ExtensionDelegate.swift */; };
+		B836B7BE1B6A7E530057FD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B7BD1B6A7E530057FD13 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B836B7A71B6A7E530057FD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B836B78B1B6A7E520057FD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B836B7A41B6A7E530057FD13;
+			remoteInfo = "Tap_Lock WatchKit App";
+		};
+		B836B7B61B6A7E530057FD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B836B78B1B6A7E520057FD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B836B7B31B6A7E530057FD13;
+			remoteInfo = "Tap_Lock WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B836B7C51B6A7E530057FD13 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B836B7B51B6A7E530057FD13 /* Tap_Lock WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B7C91B6A7E530057FD13 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B836B7A61B6A7E530057FD13 /* Tap_Lock WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B836B7931B6A7E530057FD13 /* Tap_Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tap_Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B836B7961B6A7E530057FD13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B836B7981B6A7E530057FD13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B836B79B1B6A7E530057FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B836B79D1B6A7E530057FD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836B7A01B6A7E530057FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B836B7A21B6A7E530057FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B7A51B6A7E530057FD13 /* Tap_Lock WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap_Lock WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B836B7AB1B6A7E530057FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B836B7AD1B6A7E530057FD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836B7AF1B6A7E530057FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B7B41B6A7E530057FD13 /* Tap_Lock WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tap_Lock WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B836B7B91B6A7E530057FD13 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B836B7BB1B6A7E530057FD13 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B836B7BD1B6A7E530057FD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836B7BF1B6A7E530057FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B836B7901B6A7E530057FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B7B11B6A7E530057FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B836B78A1B6A7E520057FD13 = {
+			isa = PBXGroup;
+			children = (
+				B836B7951B6A7E530057FD13 /* Tap_Lock */,
+				B836B7A91B6A7E530057FD13 /* Tap_Lock WatchKit App */,
+				B836B7B81B6A7E530057FD13 /* Tap_Lock WatchKit Extension */,
+				B836B7941B6A7E530057FD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B836B7941B6A7E530057FD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B836B7931B6A7E530057FD13 /* Tap_Lock.app */,
+				B836B7A51B6A7E530057FD13 /* Tap_Lock WatchKit App.app */,
+				B836B7B41B6A7E530057FD13 /* Tap_Lock WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B836B7951B6A7E530057FD13 /* Tap_Lock */ = {
+			isa = PBXGroup;
+			children = (
+				B836B7961B6A7E530057FD13 /* AppDelegate.swift */,
+				B836B7981B6A7E530057FD13 /* ViewController.swift */,
+				B836B79A1B6A7E530057FD13 /* Main.storyboard */,
+				B836B79D1B6A7E530057FD13 /* Assets.xcassets */,
+				B836B79F1B6A7E530057FD13 /* LaunchScreen.storyboard */,
+				B836B7A21B6A7E530057FD13 /* Info.plist */,
+			);
+			path = Tap_Lock;
+			sourceTree = "<group>";
+		};
+		B836B7A91B6A7E530057FD13 /* Tap_Lock WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B836B7AA1B6A7E530057FD13 /* Interface.storyboard */,
+				B836B7AD1B6A7E530057FD13 /* Assets.xcassets */,
+				B836B7AF1B6A7E530057FD13 /* Info.plist */,
+			);
+			path = "Tap_Lock WatchKit App";
+			sourceTree = "<group>";
+		};
+		B836B7B81B6A7E530057FD13 /* Tap_Lock WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B836B7B91B6A7E530057FD13 /* InterfaceController.swift */,
+				B836B7BB1B6A7E530057FD13 /* ExtensionDelegate.swift */,
+				B836B7BD1B6A7E530057FD13 /* Assets.xcassets */,
+				B836B7BF1B6A7E530057FD13 /* Info.plist */,
+			);
+			path = "Tap_Lock WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B836B7921B6A7E530057FD13 /* Tap_Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836B7CA1B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock" */;
+			buildPhases = (
+				B836B78F1B6A7E530057FD13 /* Sources */,
+				B836B7901B6A7E530057FD13 /* Frameworks */,
+				B836B7911B6A7E530057FD13 /* Resources */,
+				B836B7C91B6A7E530057FD13 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B836B7A81B6A7E530057FD13 /* PBXTargetDependency */,
+			);
+			name = Tap_Lock;
+			productName = Tap_Lock;
+			productReference = B836B7931B6A7E530057FD13 /* Tap_Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B836B7A41B6A7E530057FD13 /* Tap_Lock WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836B7C61B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock WatchKit App" */;
+			buildPhases = (
+				B836B7A31B6A7E530057FD13 /* Resources */,
+				B836B7C51B6A7E530057FD13 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B836B7B71B6A7E530057FD13 /* PBXTargetDependency */,
+			);
+			name = "Tap_Lock WatchKit App";
+			productName = "Tap_Lock WatchKit App";
+			productReference = B836B7A51B6A7E530057FD13 /* Tap_Lock WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B836B7B31B6A7E530057FD13 /* Tap_Lock WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836B7C21B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock WatchKit Extension" */;
+			buildPhases = (
+				B836B7B01B6A7E530057FD13 /* Sources */,
+				B836B7B11B6A7E530057FD13 /* Frameworks */,
+				B836B7B21B6A7E530057FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap_Lock WatchKit Extension";
+			productName = "Tap_Lock WatchKit Extension";
+			productReference = B836B7B41B6A7E530057FD13 /* Tap_Lock WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B836B78B1B6A7E520057FD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vamsee Gangaram";
+				TargetAttributes = {
+					B836B7921B6A7E530057FD13 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B836B7A41B6A7E530057FD13 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B836B7B31B6A7E530057FD13 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B836B78E1B6A7E520057FD13 /* Build configuration list for PBXProject "Tap_Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B836B78A1B6A7E520057FD13;
+			productRefGroup = B836B7941B6A7E530057FD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B836B7921B6A7E530057FD13 /* Tap_Lock */,
+				B836B7A41B6A7E530057FD13 /* Tap_Lock WatchKit App */,
+				B836B7B31B6A7E530057FD13 /* Tap_Lock WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B836B7911B6A7E530057FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B7A11B6A7E530057FD13 /* LaunchScreen.storyboard in Resources */,
+				B836B79E1B6A7E530057FD13 /* Assets.xcassets in Resources */,
+				B836B79C1B6A7E530057FD13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B7A31B6A7E530057FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B7AE1B6A7E530057FD13 /* Assets.xcassets in Resources */,
+				B836B7AC1B6A7E530057FD13 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B7B21B6A7E530057FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B7BE1B6A7E530057FD13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B836B78F1B6A7E530057FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B7991B6A7E530057FD13 /* ViewController.swift in Sources */,
+				B836B7971B6A7E530057FD13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B7B01B6A7E530057FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B7BC1B6A7E530057FD13 /* ExtensionDelegate.swift in Sources */,
+				B836B7BA1B6A7E530057FD13 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B836B7A81B6A7E530057FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B836B7A41B6A7E530057FD13 /* Tap_Lock WatchKit App */;
+			targetProxy = B836B7A71B6A7E530057FD13 /* PBXContainerItemProxy */;
+		};
+		B836B7B71B6A7E530057FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B836B7B31B6A7E530057FD13 /* Tap_Lock WatchKit Extension */;
+			targetProxy = B836B7B61B6A7E530057FD13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B836B79A1B6A7E530057FD13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836B79B1B6A7E530057FD13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B836B79F1B6A7E530057FD13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836B7A01B6A7E530057FD13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B836B7AA1B6A7E530057FD13 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836B7AB1B6A7E530057FD13 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B836B7C01B6A7E530057FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B836B7C11B6A7E530057FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B836B7C31B6A7E530057FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tap_Lock WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B836B7C41B6A7E530057FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tap_Lock WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B836B7C71B6A7E530057FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Tap_Lock_WatchKit_Extension;
+				INFOPLIST_FILE = "Tap_Lock WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B836B7C81B6A7E530057FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Tap_Lock_WatchKit_Extension;
+				INFOPLIST_FILE = "Tap_Lock WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B836B7CB1B6A7E530057FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tap_Lock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B836B7CC1B6A7E530057FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tap_Lock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B836B78E1B6A7E520057FD13 /* Build configuration list for PBXProject "Tap_Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B7C01B6A7E530057FD13 /* Debug */,
+				B836B7C11B6A7E530057FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B836B7C21B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B7C31B6A7E530057FD13 /* Debug */,
+				B836B7C41B6A7E530057FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B836B7C61B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B7C71B6A7E530057FD13 /* Debug */,
+				B836B7C81B6A7E530057FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B836B7CA1B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B7CB1B6A7E530057FD13 /* Debug */,
+				B836B7CC1B6A7E530057FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B836B78B1B6A7E520057FD13 /* Project object */;
+}
