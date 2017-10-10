@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B808994E1BC9DDA300FDF34D /* PasswordTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808994D1BC9DDA300FDF34D /* PasswordTraining.swift */; };
 		B836B7971B6A7E530057FD13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7961B6A7E530057FD13 /* AppDelegate.swift */; };
 		B836B7991B6A7E530057FD13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7981B6A7E530057FD13 /* ViewController.swift */; };
 		B836B79C1B6A7E530057FD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B79A1B6A7E530057FD13 /* Main.storyboard */; };
@@ -19,6 +20,14 @@
 		B836B7BA1B6A7E530057FD13 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7B91B6A7E530057FD13 /* InterfaceController.swift */; };
 		B836B7BC1B6A7E530057FD13 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7BB1B6A7E530057FD13 /* ExtensionDelegate.swift */; };
 		B836B7BE1B6A7E530057FD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B7BD1B6A7E530057FD13 /* Assets.xcassets */; };
+		B836B7CF1B6A7EF40057FD13 /* SetPasswordInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7CE1B6A7EF40057FD13 /* SetPasswordInterfaceController.swift */; };
+		B836B7D01B6A7EF40057FD13 /* SetPasswordInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7CE1B6A7EF40057FD13 /* SetPasswordInterfaceController.swift */; };
+		B836B7D21B6A7F200057FD13 /* ConfirmPInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7D11B6A7F200057FD13 /* ConfirmPInterfaceController.swift */; };
+		B836B7D31B6A7F200057FD13 /* ConfirmPInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7D11B6A7F200057FD13 /* ConfirmPInterfaceController.swift */; };
+		B836B7D51B6A7F430057FD13 /* UnlockInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7D41B6A7F430057FD13 /* UnlockInterfaceController.swift */; };
+		B836B7D61B6A7F430057FD13 /* UnlockInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7D41B6A7F430057FD13 /* UnlockInterfaceController.swift */; };
+		B836B7D81B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7D71B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift */; };
+		B836B7D91B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B7D71B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B808994D1BC9DDA300FDF34D /* PasswordTraining.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTraining.swift; sourceTree = "<group>"; };
 		B836B7931B6A7E530057FD13 /* Tap_Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tap_Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B836B7961B6A7E530057FD13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B836B7981B6A7E530057FD13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +90,11 @@
 		B836B7BB1B6A7E530057FD13 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		B836B7BD1B6A7E530057FD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B836B7BF1B6A7E530057FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B7CD1B6A7EF40057FD13 /* Tap_Lock WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap_Lock WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		B836B7CE1B6A7EF40057FD13 /* SetPasswordInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPasswordInterfaceController.swift; sourceTree = "<group>"; };
+		B836B7D11B6A7F200057FD13 /* ConfirmPInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPInterfaceController.swift; sourceTree = "<group>"; };
+		B836B7D41B6A7F430057FD13 /* UnlockInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockInterfaceController.swift; sourceTree = "<group>"; };
+		B836B7D71B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockHiddenInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +162,15 @@
 			isa = PBXGroup;
 			children = (
 				B836B7B91B6A7E530057FD13 /* InterfaceController.swift */,
+				B836B7CE1B6A7EF40057FD13 /* SetPasswordInterfaceController.swift */,
+				B836B7D11B6A7F200057FD13 /* ConfirmPInterfaceController.swift */,
+				B808994D1BC9DDA300FDF34D /* PasswordTraining.swift */,
+				B836B7D41B6A7F430057FD13 /* UnlockInterfaceController.swift */,
+				B836B7D71B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift */,
 				B836B7BB1B6A7E530057FD13 /* ExtensionDelegate.swift */,
 				B836B7BD1B6A7E530057FD13 /* Assets.xcassets */,
 				B836B7BF1B6A7E530057FD13 /* Info.plist */,
+				B836B7CD1B6A7EF40057FD13 /* Tap_Lock WatchKit App-Bridging-Header.h */,
 			);
 			path = "Tap_Lock WatchKit Extension";
 			sourceTree = "<group>";
@@ -216,17 +237,22 @@
 		B836B78B1B6A7E520057FD13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Vamsee Gangaram";
 				TargetAttributes = {
 					B836B7921B6A7E530057FD13 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 					};
 					B836B7A41B6A7E530057FD13 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 					};
 					B836B7B31B6A7E530057FD13 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = BT4NU7AQUA;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -286,7 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B836B7991B6A7E530057FD13 /* ViewController.swift in Sources */,
+				B836B7D21B6A7F200057FD13 /* ConfirmPInterfaceController.swift in Sources */,
+				B836B7CF1B6A7EF40057FD13 /* SetPasswordInterfaceController.swift in Sources */,
+				B836B7D81B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift in Sources */,
 				B836B7971B6A7E530057FD13 /* AppDelegate.swift in Sources */,
+				B836B7D51B6A7F430057FD13 /* UnlockInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B836B7BC1B6A7E530057FD13 /* ExtensionDelegate.swift in Sources */,
+				B836B7D31B6A7F200057FD13 /* ConfirmPInterfaceController.swift in Sources */,
+				B808994E1BC9DDA300FDF34D /* PasswordTraining.swift in Sources */,
+				B836B7D01B6A7EF40057FD13 /* SetPasswordInterfaceController.swift in Sources */,
+				B836B7D91B6A7F6B0057FD13 /* UnlockHiddenInterfaceController.swift in Sources */,
 				B836B7BA1B6A7E530057FD13 /* InterfaceController.swift in Sources */,
+				B836B7D61B6A7F430057FD13 /* UnlockInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +461,16 @@
 		B836B7C31B6A7E530057FD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tap_Lock WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -440,12 +479,16 @@
 		B836B7C41B6A7E530057FD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tap_Lock WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -455,13 +498,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Tap_Lock_WatchKit_Extension;
 				INFOPLIST_FILE = "Tap_Lock WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tap_Lock WatchKit Extension/Tap_Lock WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -471,13 +519,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Tap_Lock_WatchKit_Extension;
 				INFOPLIST_FILE = "Tap_Lock WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tap_Lock WatchKit Extension/Tap_Lock WatchKit App-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -491,6 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -502,6 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vumz.Tap-Lock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -524,6 +578,7 @@
 				B836B7C41B6A7E530057FD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B836B7C61B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +587,7 @@
 				B836B7C81B6A7E530057FD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B836B7CA1B6A7E530057FD13 /* Build configuration list for PBXNativeTarget "Tap_Lock" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +596,7 @@
 				B836B7CC1B6A7E530057FD13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

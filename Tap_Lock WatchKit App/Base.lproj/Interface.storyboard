@@ -1,15 +1,305 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="c3h-ew-aub">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Menu-->
+        <scene sceneID="Nfg-bm-Kca">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller identifier="MenuInterfaceController" title="Menu" id="c3h-ew-aub" customClass="InterfaceController" customModule="Tap_Lock_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Set Password" id="X8x-Pk-nk0">
+                            <connections>
+                                <action selector="SetPassword" destination="c3h-ew-aub" id="aNw-Yq-inV"/>
+                                <segue destination="j2b-zw-wBE" kind="push" id="w8L-TT-xS0"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Training" id="Sgr-e1-fOw">
+                            <connections>
+                                <segue destination="4wa-fg-QMl" kind="push" id="13l-J2-kfS"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Unlock" id="mnb-r3-Kh4">
+                            <connections>
+                                <action selector="UnlockButton" destination="c3h-ew-aub" id="kXL-bj-IGi"/>
+                                <segue destination="VAL-cs-8hU" kind="push" id="O1B-km-uGU"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Unlock-Hidden" id="nNd-Sv-vEi">
+                            <connections>
+                                <segue destination="cxT-Kx-OQX" kind="push" id="KDp-Tu-JV8"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="234" y="573"/>
+        </scene>
+        <!--Set Password-->
+        <scene sceneID="gpW-uM-FJE">
+            <objects>
+                <controller identifier="SetPInterfaceController" title="Set Password" id="j2b-zw-wBE" customClass="SetPasswordInterfaceController" customModule="Tap_Lock_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.48999999999999999" alignment="center" id="mUg-qq-Zlz">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" title="2" id="QGb-zk-QS9">
+                                    <connections>
+                                        <action selector="button2" destination="j2b-zw-wBE" id="gKC-E1-4YV"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="CNs-Dd-bgV"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" title="1" id="spY-Jh-ScC">
+                                    <connections>
+                                        <action selector="button1" destination="j2b-zw-wBE" id="hy2-UE-bkd"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.48999999999999999" alignment="center" verticalAlignment="bottom" id="Ih2-cz-Z7a">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" title="3" id="3YK-N4-zDP">
+                                    <connections>
+                                        <action selector="button3" destination="j2b-zw-wBE" id="JiN-n7-7iz"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="Ouk-Q0-ZR5"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" title="4" id="Ylw-Uq-BUP">
+                                    <connections>
+                                        <action selector="button4" destination="j2b-zw-wBE" id="etQ-of-pQS"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="center" verticalAlignment="center" id="x9D-X9-QJn"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="439" y="573"/>
+        </scene>
+        <!--Confirm Password-->
+        <scene sceneID="zPi-pd-LbG">
+            <objects>
+                <controller identifier="ConfirmPInterfaceController" title="Confirm Password" id="Arv-rC-JsW" customClass="ConfirmPInterfaceController" customModule="Tap_Lock_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.48999999999999999" alignment="center" id="PnC-ZC-8Rp">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="Uxi-ix-OCe">
+                                    <connections>
+                                        <action selector="button2" destination="Arv-rC-JsW" id="DJ2-JQ-IhZ"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="9eB-d0-cMK"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="P3E-gu-1P9">
+                                    <connections>
+                                        <action selector="button1" destination="Arv-rC-JsW" id="uyq-sJ-ZCm"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.48999999999999999" alignment="center" verticalAlignment="bottom" id="hdB-mX-Cvn">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="lqF-NK-v7B">
+                                    <connections>
+                                        <action selector="button3" destination="Arv-rC-JsW" id="Oie-6H-RGu"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="bUX-B6-o6d"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="lyR-mq-yRK">
+                                    <connections>
+                                        <action selector="button4" destination="Arv-rC-JsW" id="ntt-Su-drS"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="center" verticalAlignment="center" id="o5Z-hc-2OH"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="648" y="573"/>
+        </scene>
+        <!--Unlock-Hidden-->
+        <scene sceneID="oS0-uo-VkD">
+            <objects>
+                <controller identifier="UnlockHiddenInterfaceController" title="Unlock-Hidden" id="cxT-Kx-OQX" customClass="UnlockHiddenInterfaceController" customModule="Tap_Lock_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.5" alignment="center" id="zar-HW-IEn">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" id="cpy-Mu-KKW">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button2" destination="cxT-Kx-OQX" id="3jT-Od-0Vi"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" id="HsJ-LA-IdI">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button1" destination="cxT-Kx-OQX" id="6Eq-I9-9Pw"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="center" verticalAlignment="bottom" id="akt-5M-EvD">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" id="I9x-R5-fxY">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button3" destination="cxT-Kx-OQX" id="1Eh-fv-r4c"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" id="TyZ-A7-7GM">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button4" destination="cxT-Kx-OQX" id="Y22-o3-zME"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="234" y="941"/>
+        </scene>
+        <!--Unlock-->
+        <scene sceneID="0Ma-zt-X9P">
+            <objects>
+                <controller identifier="UnlockInterfaceController" title="Unlock" id="VAL-cs-8hU" customClass="UnlockInterfaceController" customModule="Tap_Lock_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.48999999999999999" alignment="center" id="Apu-Lx-j0C">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="tkZ-3u-h0S">
+                                    <connections>
+                                        <action selector="button2" destination="VAL-cs-8hU" id="FBz-Gs-BGm"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="Llx-uC-te0"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="Y7e-j9-9RG">
+                                    <connections>
+                                        <action selector="button1" destination="VAL-cs-8hU" id="T13-JE-Rsi"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.48999999999999999" alignment="center" verticalAlignment="bottom" id="3e0-XC-vZk">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="f6A-5h-6ZU">
+                                    <connections>
+                                        <action selector="button3" destination="VAL-cs-8hU" id="kwy-AX-Ic3"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="i4r-LM-GN1"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="nbn-ih-ejb">
+                                    <connections>
+                                        <action selector="button4" destination="VAL-cs-8hU" id="0Qx-JC-OWA"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="center" verticalAlignment="center" id="hOA-EX-oat"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="439" y="941"/>
+        </scene>
+        <!--Return-->
+        <scene sceneID="4KJ-K8-RmE">
+            <objects>
+                <controller identifier="SuccessInterfaceController" title="Return" id="Sn2-Nd-HI1">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Success" textAlignment="center" id="4qg-Q6-XOV">
+                            <color key="textColor" red="0.014209684510000001" green="1" blue="0.07461909421" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="648" y="941"/>
+        </scene>
+        <!--Return-->
+        <scene sceneID="VaV-TW-DkQ">
+            <objects>
+                <controller identifier="TryAgainInterfaceController" title="Return" id="z46-WU-CVW">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Try Again" textAlignment="left" id="e2E-Hd-YEq">
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="828" y="941"/>
+        </scene>
+        <!--Return-->
+        <scene sceneID="FIg-Pt-YEn">
+            <objects>
+                <controller identifier="SuccessTInterfaceController" title="Return" id="d6D-5h-aFX">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Success" textAlignment="center" id="dCE-3K-Yjj">
+                            <color key="textColor" red="0.014209684510000001" green="1" blue="0.07461909421" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" text="attempts left" textAlignment="center" id="hvV-uP-FWX"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="648" y="210"/>
+        </scene>
+        <!--Training Password-->
+        <scene sceneID="r4Y-6K-zx5">
+            <objects>
+                <controller identifier="TrainingInterfaceController" title="Training Password" id="4wa-fg-QMl" customClass="TrainingInterfaceController" customModule="Tap_Lock_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.48999999999999999" alignment="center" id="koy-fB-512">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="muB-Kp-tAh">
+                                    <connections>
+                                        <action selector="button2" destination="4wa-fg-QMl" id="O3s-8N-Rri"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="pqm-iX-qnZ"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="mpt-jw-k6t">
+                                    <connections>
+                                        <action selector="button1" destination="4wa-fg-QMl" id="AlY-pf-NMy"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.48999999999999999" alignment="center" verticalAlignment="bottom" id="YYZ-Wq-IkX">
+                            <items>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="47X-Ue-sIe">
+                                    <connections>
+                                        <action selector="button3" destination="4wa-fg-QMl" id="SdI-us-KJQ"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="laT-VA-q0A"/>
+                                <button width="0.48999999999999999" height="1" alignment="left" id="vhF-Ui-hu3">
+                                    <connections>
+                                        <action selector="button4" destination="4wa-fg-QMl" id="xlZ-Ts-zOl"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="center" verticalAlignment="center" id="H0w-5f-sXy"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="234" y="210"/>
+        </scene>
+        <!--Return-->
+        <scene sceneID="iov-4K-zdM">
+            <objects>
+                <controller identifier="TryAgainTInterfaceController" title="Return" id="4u8-zU-XOZ">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Try Again" textAlignment="left" id="z3a-FK-Hwd">
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" text="attempts left" id="LF6-k6-rMl"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="828" y="210"/>
         </scene>
     </scenes>
 </document>
